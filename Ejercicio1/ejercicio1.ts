@@ -1,3 +1,3 @@
-console.log("hola")
-console.log("Mundo")
-console.log("Viva")
+const mi_array=[57,38,81,47,19,4,29,49,28]
+
+const quicksort=(array:number[],)
