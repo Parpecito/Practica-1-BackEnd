@@ -6,7 +6,13 @@ const orden_devol=(palabras:string[])=>{
     }
     const ordenar_palabras=palabras.sort();
     const primer_elemento=ordenar_palabras[0];
-    const separar_palabras=primer_elemento.split('').join('');
+    let separar_palabras="";
+    for(let i=0;i<primer_elemento.length;i++){
+        separar_palabras+=primer_elemento[i]+"";
+        if(i<primer_elemento.length-1){
+            separar_palabras+="";
+        }
+    }
     return separar_palabras;
 }
 
